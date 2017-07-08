@@ -1,0 +1,20 @@
+{% from "_formhelpers.html" import render_field %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title 1024hub|free porn|sexy pictures|free webcam></title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href='bootstrap.min.css' media="screen">
+    <link rel="shortcut icon" href='favicon.ico'>
+</head>
+
+<body>
+<form method="post" action="/">
+  {{ form.csrf_token }}
+  {{ render_field(form.username) }}
+  {{ render_field(form.password) }}
+  <input type="submit" value="Login">
+</form>
+
+</body>
+</html>
